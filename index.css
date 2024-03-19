@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.v-center{
+    align-items: center;
+}
+
+
+.header{
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    display: block;
+}
+
+.header .item-left{flex: 0 0 17%;}
+.header .item-center{flex: 0 0 66%;}
+.header .item-right{flex: 0 0 17%; display: flex; justify-content: flex-end;}
+
+
+.header .item-right a{
+    display: inline-block;
+    margin-left: 17px;
+    color: black;
+    font-size: 15px;
+}
+.header .logo a{
+    font-size: 25px;
+    font-weight: 900;
+    color: black;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.header .menu > ul > li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.header .menu > ul > li > a{
+    font-size: 15px;
+    color: black;
+    position: relative;
+    font-weight: 500;
+}
+.banner-section{
+    display: block;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.3),rgba(0,0,0,0.9)), url('https://www.hashtaginvesting.com/wp-content/uploads/2023/05/new-shutter.jpg.webp');
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+.mobile-menu-head,
+.mobile-menu-tigger{
+    display: none;
+}
+.btn{
+    margin-top: 350px;
+    margin-left: 670px;
+    padding: 20px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    font-family:  sans-serif;
+    font-size: 23px;
+    font-weight: 1000;
+    cursor: pointer;
+    width: 200px;
+}
+.btn:hover{
+    background-color: aliceblue;
+}
+
+.explore-text {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+
